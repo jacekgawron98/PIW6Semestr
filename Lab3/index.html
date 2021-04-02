@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts/list_handler.js"></script>
+    <script src="scripts/list_handler_jquery.js"></script>
+    <title>TO DO LIST</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row"> 
+            <div class="col">
+                <h1>TO DO lists</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <input type="text" id="item-text" class="form-control"/>
+                <select id="list-selector" class="form-control">
+                    <option value="not-important">Not important</option>
+                    <option value="normal">Normal</option>
+                    <option value="important">Important</option>
+                    <option value="critical">Critical</option>
+                </select>
+            </div>
+            <div class="col-lg-4">
+                <button id="item-add" onclick="addToList()" class="btn btn-primary">Add</button>
+                <button id="return" class="btn btn-primary">Return from trash</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h3 onclick="hideList('not-important')">Not important</h3>
+                <input oninput="searchList(this,'not-important-check','not-important')" type="text" class="form-control"/>
+                <div class="form-check">
+                    <input id="not-important-check" type="checkbox" class="form-check-input"/> 
+                    <label class="form-check-label">Case-sensitive?</label>
+                </div>
+                <ul id="not-important" class="list-group">
+                </ul>        
+            </div>
+            <div class="col-lg-3">
+                <h3 onclick="hideList('normal')">Normal</h3>
+                <input oninput="searchList(this,'normal-check','normal')" type="text" class="form-control"/>
+                <div class="form-check">
+                    <input id="normal-check" type="checkbox" class="form-check-input"/> 
+                    <label class="form-check-label">Case-sensitive?</label>
+                </div>
+                <ul id="normal" class="list-group">
+                </ul>        
+            </div>
+            <div class="col-lg-3">
+                <h3 onclick="hideList('important')">Important</h3>
+                <input oninput="searchList(this,'important-check','important')" type="text" class="form-control"/>
+                <div class="form-check">
+                    <input id="important-check" type="checkbox" class="form-check-input"/> 
+                    <label class="form-check-label">Case-sensitive?</label>
+                </div>
+                <ul id="important" class="list-group">
+                </ul>        
+            </div>
+            <div class="col-lg-3">
+                <h3 onclick="hideList('critical')">Critical</h3>
+                <input oninput="searchList(this,'critical-check','critical')" type="text" class="form-control"/>
+                <div class="form-check">
+                    <input id="critical-check" type="checkbox" class="form-check-input"/> 
+                    <label class="form-check-label">Case-sensitive?</label>
+                </div>
+                <ul id="critical" class="list-group">
+                </ul>        
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>

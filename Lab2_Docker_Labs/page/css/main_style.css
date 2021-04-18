@@ -1,0 +1,21 @@
+.main_content{
+    text-align: center;
+}
+
+.centered{
+    margin-left: auto;
+    margin-right : auto;
+}
+
+table{
+    border: 1px solid black;
+}
+th{
+    font-weight: bold;
+    padding: 0 5px;
+    border: 2px solid black;;
+}
+td{
+    padding: 5px;
+    border: 1px solid black;
+}

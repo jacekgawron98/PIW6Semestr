@@ -1,0 +1,69 @@
+.tag-input{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.tag-input li{
+    align-items: center;
+    background: #98DFAF;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    font-weight: 300;
+    list-style: none;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+.tag-input li button{
+    align-items: center;
+    appearance: none;
+    background: red;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    height: 15px;
+    justify-content: center;
+    line-height: 0;
+    margin-left: 8px;
+    padding: 0;
+    transform: rotate(45deg);
+    width: 15px;
+}
+
+.tag-input li.input-li{
+    background: none !important;
+    flex-grow: 1 !important;
+    padding: 0 !important;
+}
+
+.row {
+    background-color: #5FB49C;
+    color: whitesmoke;
+}
+
+.add {
+    background-color: #414288;
+    color: whitesmoke;
+}
+.find{
+    background-color: #682D63;
+    color: whitesmoke;
+}
+.list-group-item-primary{
+    background-color: #98DFAF !important;
+    color: #682D63 !important;
+}
+
+.student {
+    margin-top: 1%;
+    padding: 2%;
+    background-color: #414288;
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PIW6Semestr/Lab5/static/css/main.be12e724.chunk.css",
+    "main.js": "/PIW6Semestr/Lab5/static/js/main.1680b9be.chunk.js",
+    "main.js.map": "/PIW6Semestr/Lab5/static/js/main.1680b9be.chunk.js.map",
+    "runtime-main.js": "/PIW6Semestr/Lab5/static/js/runtime-main.7a2a4b10.js",
+    "runtime-main.js.map": "/PIW6Semestr/Lab5/static/js/runtime-main.7a2a4b10.js.map",
+    "static/js/2.d3699bd9.chunk.js": "/PIW6Semestr/Lab5/static/js/2.d3699bd9.chunk.js",
+    "static/js/2.d3699bd9.chunk.js.map": "/PIW6Semestr/Lab5/static/js/2.d3699bd9.chunk.js.map",
+    "static/js/3.9ce92fc2.chunk.js": "/PIW6Semestr/Lab5/static/js/3.9ce92fc2.chunk.js",
+    "static/js/3.9ce92fc2.chunk.js.map": "/PIW6Semestr/Lab5/static/js/3.9ce92fc2.chunk.js.map",
+    "index.html": "/PIW6Semestr/Lab5/index.html",
+    "static/css/main.be12e724.chunk.css.map": "/PIW6Semestr/Lab5/static/css/main.be12e724.chunk.css.map",
+    "static/js/2.d3699bd9.chunk.js.LICENSE.txt": "/PIW6Semestr/Lab5/static/js/2.d3699bd9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a2a4b10.js",
+    "static/js/2.d3699bd9.chunk.js",
+    "static/css/main.be12e724.chunk.css",
+    "static/js/main.1680b9be.chunk.js"
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PIW6Semestr/static/css/main.be12e724.chunk.css",
-    "main.js": "/PIW6Semestr/static/js/main.1680b9be.chunk.js",
-    "main.js.map": "/PIW6Semestr/static/js/main.1680b9be.chunk.js.map",
+    "main.js": "/PIW6Semestr/static/js/main.6354c66f.chunk.js",
+    "main.js.map": "/PIW6Semestr/static/js/main.6354c66f.chunk.js.map",
     "runtime-main.js": "/PIW6Semestr/static/js/runtime-main.f04a21e1.js",
     "runtime-main.js.map": "/PIW6Semestr/static/js/runtime-main.f04a21e1.js.map",
     "static/js/2.d3699bd9.chunk.js": "/PIW6Semestr/static/js/2.d3699bd9.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f04a21e1.js",
     "static/js/2.d3699bd9.chunk.js",
     "static/css/main.be12e724.chunk.css",
-    "static/js/main.1680b9be.chunk.js"
+    "static/js/main.6354c66f.chunk.js"
   ]
 }

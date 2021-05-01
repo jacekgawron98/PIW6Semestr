@@ -91,7 +91,7 @@ class MainRender extends React.Component{
     render(){
         return (
             <>
-                <Router>
+                <Router basename={process.env.PUBLIC_URL}>
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
                         <div className="collapse navbar-collapse">
                             <ul className="navbar-nav">

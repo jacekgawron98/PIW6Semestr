@@ -1,0 +1,46 @@
+.margin{
+    margin: 2% !important;
+}
+
+.menu-content{
+    margin-top: 8% !important;
+    text-align: center;
+}
+
+.menu-img{
+    height: 40vh;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.item{
+    position: relative;
+    border-radius: 50px;
+}
+
+.item-desc{
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 50px 50px 41px 41px;
+}
+
+.item-name{
+    padding: 0;
+    margin: 0;
+}
+
+.item-ingredient{
+    color: #000 !important;
+    font-size: 20px;
+}
+
+.item-price{
+    background-color: #e42701;
+    padding: 1%;
+    margin: 0;
+    font-size: 40px;
+    border-radius: 50px 50px 50px 50px; 
+}
+

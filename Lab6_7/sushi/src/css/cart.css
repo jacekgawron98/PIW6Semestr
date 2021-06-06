@@ -1,0 +1,25 @@
+.cart-margin{
+    margin-top: 8% !important;
+}
+
+
+.card{
+    border-color: #d52501;
+}
+
+.card-body{
+    background-color: #e42701;
+    color: #fff;
+    text-align: center;
+}
+
+.item-card{
+    margin-bottom: 1%;
+    border-color: #fff;
+}
+
+.item-card-body{
+    background-color: #fff;
+    color: #000;
+    text-align: left; 
+}
